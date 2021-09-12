@@ -236,8 +236,7 @@ class App extends React.Component<any, any> {
       walletconnect: {
         package: WalletConnectProvider,
         options: {
-          infuraId: '206fdff53eff45ab86148a322f03fc28'
-          //process.env.REACT_APP_INFURA_ID
+          infuraId: process.env.REACT_APP_INFURA_ID
         }
       },/*
       torus: {
